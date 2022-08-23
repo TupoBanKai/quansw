@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :question, class: Question do
-    id { 1 }
+    id {  }
     title { "title" }
   end
 end
