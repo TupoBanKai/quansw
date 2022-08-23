@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :answer, class: Answer do
-    id { 1 }
+    id {  }
     title { "title" }
-    question_id { 1 }
+    association :question, factory: :question
   end
 end
